@@ -1,0 +1,386 @@
+/* -------------------------------- GENERAL -------------------------------- */
+
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+	font-size: 16pt;
+}
+
+button {
+    border: none;
+    background: white;
+    outline: none;
+    width: 100%;
+    min-height: 40px;
+    height: 40px;
+    font-weight: 300;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.page-title {
+    margin: 2px 0;
+    line-height: 1;
+}
+
+.entry-title {
+    margin: 2px 0;
+    line-height: 1;
+}
+
+.post-info {
+    font-style: italic;
+}
+
+.post-summary {
+    margin-bottom: 90px;
+}
+
+/* -------------------------------- HEADER -------------------------------- */
+
+#masthead {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1024px;
+}
+
+#headshot {
+	width: 150px;
+	height: 150px;
+	min-width: 150px;
+	background-size: 150px 150px;
+	border-radius: 150px;
+	background-image: url('../img/headshot.jpg')
+}
+
+#title_block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.subtitle {
+	font-size: 75%;
+
+}
+
+#menu {
+    width: 150px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul div {
+    margin-bottom: 2px;
+}
+
+nav ul div a {
+    padding: 5px 0;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+}
+
+nav ul div a:hover {
+    text-decoration: none;
+}
+
+#about_button {
+    background: rgb(26, 153, 252);
+}
+
+#portfolio_button {
+    background: rgb(253, 127, 124);
+}
+
+#research_button {
+    background: rgb(253, 137, 253);
+}
+
+#archive_button {
+    background: rgb(254,211,127);
+}
+
+
+/* --------------------------------- BODY --------------------------------- */
+
+#body {
+    width: 690px;
+    padding: 25px 15px;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    line-height: 1.8;
+    font-size: 14pt;
+}
+
+/* ------------------------------- PORTFOLIO ------------------------------- */
+
+#portolio {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-content: space-between;
+        -ms-flex-line-pack: justify;
+            align-content: space-between;
+}
+
+.project {
+    width: 290px;
+    height: 360px;
+    margin: 10px;
+    padding: 10px;
+    border: thin solid darkgrey;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    box-shadow: 1px 1px 10px #888888;
+    background: rgb(26, 153, 252);
+    color: white;
+    line-height: 1.2;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.project a {
+    color: white;
+}
+
+.projectHeader {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+            align-self: stretch;
+}
+
+.projectHeaderTopRow {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.projectTitle h2 {
+    margin: 0;
+}
+
+.projectLanguageList {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.projectLanguage {
+    width: 35px;
+    height: 35px;
+    background-size: 35px;
+    border-radius: 5px;
+}
+
+.projectSummary {
+    text-align: center;
+    min-height: 66px;
+}
+
+.languagePython {
+    background-image: url('../img/python.png');
+}
+
+.languageJavascript {
+    background-image: url('../img/javascript.png');
+}
+
+.projectHero {
+    width: 200px;
+    height: 200px;
+    background-size: 200px;
+    border-radius: 100px;
+}
+
+.menpoHero {
+    background-image: url('../img/menpo.jpg');
+}
+
+.landmarkerioHero {
+    border-radius: 0;
+    background: url('../img/landmarkerio.png') round;
+}
+
+
+/* -------------------------------- QUERIES -------------------------------- */
+
+@media screen and (max-width: 1024px) {
+
+	#masthead {
+		width: auto;
+        -webkit-align-self: stretch;
+            -ms-flex-item-align: stretch;
+                align-self: stretch;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+
+    #body {
+        width: auto;
+        -webkit-align-self: stretch;
+            -ms-flex-item-align: stretch;
+                align-self: stretch;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #headshot {
+        width: 110px;
+        height: 110px;
+        min-width: 110px;
+        background-size: 110px 110px;
+    }
+
+    #menu {
+        width: 110px;
+    }
+
+    #body {
+        font-size: 80%;
+        padding: 20px 5px;
+    }
+
+}
+
+@media screen and (max-width: 385px) {
+
+    #headshot {
+        width: 95px;
+        height: 95px;
+        min-width: 95px;
+        background-size: 95px 95px;
+    }
+
+    #menu {
+        width: 95px;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+
+	#headshot {
+		display: none;
+	}
+
+    #title_block {
+        -webkit-box-align: baseline;
+        -webkit-align-items: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+    }
+
+    p {
+        /* Too small and justification looks bad */
+        text-align: start;
+    }
+
+}

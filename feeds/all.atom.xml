@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>James A. Booth</title><link href="http://www.jamesabooth.com/" rel="alternate"></link><link href="http://www.jamesabooth.com/feeds/all.atom.xml" rel="self"></link><id>http://www.jamesabooth.com/</id><updated>2015-03-31T23:59:00+01:00</updated><entry><title>Hello, world</title><link href="http://www.jamesabooth.com/blog/2015/03/hello-world/" rel="alternate"></link><updated>2015-03-31T23:59:00+01:00</updated><author><name>James Booth</name></author><id>tag:www.jamesabooth.com,2015-03-31:blog/2015/03/hello-world/</id><summary type="html">&lt;p&gt;I've been meaning to start a blog for a long time.&lt;/p&gt;
+&lt;p&gt;It's not that I have grand ambitions of cultivating a huge readership,
+I just like the idea of having my own little corner of the internet where I can
+put my thoughts into words, even if only for my own pleasure.&lt;/p&gt;
+&lt;p&gt;It's also not that I am a particularly gifted writer (&lt;a href="https://twitter.com/martinabooth"&gt;my sister&lt;/a&gt; got all the literary genes)
+but I would like to become a &lt;em&gt;better&lt;/em&gt; writer, and I know the only way to
+improve is to make myself write, even if only a little at a time, about the
+things I am passionate about. Namely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My research as a PhD student investigating &lt;a href="https://www.youtube.com/watch?v=nice6NYb_WA"&gt;3D Morphable Models&lt;/a&gt; in the &lt;a href="http://ibug.doc.ic.ac.uk/"&gt;iBUG
+group&lt;/a&gt; at &lt;a href="http://www.imperial.ac.uk/"&gt;Imperial College London&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Snippets about software development, most likely about &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My thoughts on the technology industry, principally on developments around
+Apple, Google and Microsoft. I might also do the occasional product review of devices that I personally own.&lt;/li&gt;
+&lt;li&gt;Photography. My father was an avid photographer, and as a result I've grown
+up around the hobby. In the last few years I have started to take the subject &lt;a href="https://www.flickr.com/photos/jamesabooth"&gt;a
+little more seriously&lt;/a&gt;, and I'll be writing up any thoughts I have of note.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outside of blogging, this site also has a few summary pages that I will be keeping
+up to date. Feel free to checkout an &lt;a href="http://www.jamesabooth.com/research"&gt;overview of my research&lt;/a&gt;,
+&lt;a href="http://www.jamesabooth.com/portfolio"&gt;software projects that I have been involved in&lt;/a&gt;,
+or find out a little more &lt;a href="http://www.jamesabooth.com/about"&gt;about me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This site itself is also something I've been meaning to create for ages. I'll probably post some more details
+about the design a little later on, but for now I'll say that it's &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican based&lt;/a&gt;
+with a custom theme, and should work great on any modern browser on any modern device.
+I'm only interested in supporting &lt;a href="http://eisenbergeffect.bluespire.com/evergreen-browsers/"&gt;evergreen browsers&lt;/a&gt;
+so if you come here on IE9 and tell me everything is broken, well, maybe
+&lt;a href="http://caniuse.com/#feat=flexbox"&gt;it's time for an upgrade&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'm sure I'll look back on these early posts down the line and cringe,
+but the only way to get to a new destination is to take the first step.&lt;/p&gt;
+&lt;p&gt;So without further ado...&lt;/p&gt;</summary></entry></feed>
