@@ -1,19 +1,9 @@
 /* -------------------------------- GENERAL -------------------------------- */
 
 body {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
         "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
@@ -64,18 +54,9 @@ p {
 /* -------------------------------- HEADER -------------------------------- */
 
 #masthead {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
     width: 1024px;
 }
 
@@ -89,19 +70,9 @@ p {
 }
 
 #title_block {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .subtitle {
@@ -156,9 +127,7 @@ nav ul div a:hover {
 #body {
     width: 690px;
     padding: 25px 15px;
-    -webkit-align-self: center;
-        -ms-flex-item-align: center;
-            align-self: center;
+    align-self: center;
     line-height: 1.8;
     font-size: 14pt;
 }
@@ -166,20 +135,10 @@ nav ul div a:hover {
 /* ------------------------------- PORTFOLIO ------------------------------- */
 
 #portolio {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-align-content: space-between;
-        -ms-flex-line-pack: justify;
-            align-content: space-between;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .project {
@@ -188,27 +147,14 @@ nav ul div a:hover {
     margin: 10px;
     padding: 10px;
     border: thin solid darkgrey;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
     box-shadow: 1px 1px 10px #888888;
     background: rgb(26, 153, 252);
     color: white;
     line-height: 1.2;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .project a {
@@ -216,46 +162,18 @@ nav ul div a:hover {
 }
 
 .projectHeader {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    -webkit-align-self: stretch;
-        -ms-flex-item-align: stretch;
-            align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    align-self: stretch;
 }
 
 .projectHeaderTopRow {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .projectTitle h2 {
@@ -263,9 +181,6 @@ nav ul div a:hover {
 }
 
 .projectLanguageList {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -293,16 +208,14 @@ nav ul div a:hover {
     width: 200px;
     height: 200px;
     background-size: 200px;
-    border-radius: 100px;
 }
 
 .menpoHero {
-    background-image: url('../img/menpo.jpg');
+    background-image: url('../img/menpo.png');
 }
 
 .landmarkerioHero {
-    border-radius: 0;
-    background: url('../img/landmarkerio.png') round;
+    background-image: url('../img/landmarkerio.png');
 }
 
 
@@ -312,9 +225,7 @@ nav ul div a:hover {
 
 	#masthead {
 		width: auto;
-        -webkit-align-self: stretch;
-            -ms-flex-item-align: stretch;
-                align-self: stretch;
+        align-self: stretch;
     }
 
 }
@@ -323,9 +234,7 @@ nav ul div a:hover {
 
     #body {
         width: auto;
-        -webkit-align-self: stretch;
-            -ms-flex-item-align: stretch;
-                align-self: stretch;
+        align-self: stretch;
     }
 
 }
@@ -372,10 +281,7 @@ nav ul div a:hover {
 	}
 
     #title_block {
-        -webkit-box-align: baseline;
-        -webkit-align-items: baseline;
-            -ms-flex-align: baseline;
-                align-items: baseline;
+        align-items: baseline;
     }
 
     p {
