@@ -61,11 +61,11 @@ p {
 }
 
 #headshot {
-	width: 150px;
-	height: 150px;
-	min-width: 150px;
-	background-size: 150px 150px;
-	border-radius: 150px;
+	width: 140px;
+	height: 140px;
+	min-width: 140px;
+	background-size: 140px 140px;
+	border-radius: 140px;
 	background-image: url('../img/headshot.jpg')
 }
 
@@ -105,7 +105,7 @@ nav ul div a:hover {
     text-decoration: none;
 }
 
-#about_button {
+#research_button {
     background: rgb(26, 153, 252);
 }
 
@@ -113,11 +113,11 @@ nav ul div a:hover {
     background: rgb(253, 127, 124);
 }
 
-#research_button {
+#archive_button {
     background: rgb(253, 137, 253);
 }
 
-#archive_button {
+#blog_button {
     background: rgb(254,211,127);
 }
 
