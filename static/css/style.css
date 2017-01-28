@@ -141,6 +141,10 @@ nav ul div a:hover {
     align-content: space-between;
 }
 
+.project:hover {
+    transform: scale(1.04);
+}
+
 .project {
     width: 290px;
     height: 360px;
@@ -151,14 +155,9 @@ nav ul div a:hover {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 1px 1px 10px #888888;
-    background: rgb(26, 153, 252);
-    color: white;
     line-height: 1.2;
     align-items: center;
-}
-
-.project a {
-    color: white;
+    transition: all .15s ease-in-out;
 }
 
 .projectHeader {
@@ -173,7 +172,7 @@ nav ul div a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .projectTitle h2 {
@@ -194,6 +193,10 @@ nav ul div a:hover {
 .projectSummary {
     text-align: center;
     min-height: 66px;
+}
+
+.projectLink:hover {
+    text-decoration: none;
 }
 
 .languagePython {
@@ -218,6 +221,9 @@ nav ul div a:hover {
     background-image: url('../img/landmarkerio.png');
 }
 
+.longbowHero {
+    background-image: url('../img/longbow.png');
+}
 
 /* -------------------------------- QUERIES -------------------------------- */
 
